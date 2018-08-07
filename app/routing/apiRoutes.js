@@ -31,8 +31,6 @@ module.exports = function (app) {
 				bestMatch.name = friendsArray[i].name;
 				bestMatch.photo = friendsArray[i].photo;
 				bestMatch.difference = difference;
-				// console.log("bestMatch.name: " + bestMatch.name);
-				// console.log("bestMatch.difference: " + bestMatch.difference);
 			}
 		}
 		console.log(bestMatch);
