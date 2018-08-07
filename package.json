@@ -1,0 +1,26 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "A friend finding application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wood0761/FriendFinder.git"
+  },
+  "author": "Steve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wood0761/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/wood0761/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chosen-js": "^1.8.7",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
